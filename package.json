@@ -1,0 +1,31 @@
+{
+  "name": "github-f4f",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/acid4you/Github-F4F#readme",
+  "bugs": {
+    "url": "https://github.com/acid4you/Github-F4F/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acid4you/Github-F4F.git"
+  },
+  "license": "MIT",
+  "author": "Rafid Ahmed",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.0",
+    "axios": "^1.5.0",
+    "chalk": "^5.6.2",
+    "dotenv": "^17.4.2",
+    "figlet": "^1.5.2",
+    "gradient-string": "^2.0.1",
+    "inquirer": "^9.2.7",
+    "ora": "^6.1.2",
+    "winston": "^3.10.0"
+  }
+}
